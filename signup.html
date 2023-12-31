@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="input-box">
+        <h1>Sign Up Page</h1>
+
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" placeholder="entry email id" name="fname" id="fName">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" placeholder="entry email id" name="lname" id="lName">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">E-mail ID:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="email" placeholder="entry email id" id="emailId">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="password">Passward:</label>
+                </div>
+                <div class="col-75">
+                    <input type="password" name="passward" placeholder="entry email id" id="passward">
+                </div>
+            </div>
+
+            <div class="btn-align">
+
+                <a href="./index.html">Sign In</a>
+
+                <button type="submit" onclick="signUp(event)">Sign Up</button>
+
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
